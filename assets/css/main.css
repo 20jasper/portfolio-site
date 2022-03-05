@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(2, 0, 19);
+		background: rgb(2, 0, 19); 
+		/* rgb(25, 22, 59) */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -160,6 +161,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			
 
 		}
 
@@ -2032,7 +2034,9 @@ input, select, textarea {
 		font-weight: 700;
 		margin: 0 0 1em 0;
 	}
-
+	textarea{
+		resize: vertical; 
+	}
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -3622,6 +3626,4 @@ input, select, textarea {
 			}
 
 		}
-		.menu{
-			display: none;
-		}
+		
