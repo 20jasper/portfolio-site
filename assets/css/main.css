@@ -2812,6 +2812,10 @@ input, select, textarea {
 			border-radius: 50px;
 
 		}
+		.post > .image.featured {
+			overflow: hidden;
+			border-radius: 50px;
+		}
 
 			.post > a.image.featured img {
 				-moz-transition: -moz-transform 0.2s ease-out;
