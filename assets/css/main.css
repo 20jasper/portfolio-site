@@ -3637,4 +3637,11 @@ input, select, textarea {
 			}
 
 		}
-		
+/* navigation */
+span.navigation{
+	position: relative;
+	top: -3em;
+}
+	span.navigation#projects{
+		top: -7.5em;
+	}
