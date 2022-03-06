@@ -194,7 +194,7 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: rgb(252, 253, 255);
+		color: rgb(241, 230, 216);
 		font-weight: 700;
 	}
 
@@ -207,7 +207,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: rgb(252, 253, 255);
+		color: rgb(241, 230, 216);
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
@@ -1874,7 +1874,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 152, 0, 0.2);
-		color: rgb(252, 253, 255) !important;
+		color: rgb(241, 230, 216) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -2035,7 +2035,7 @@ input, select, textarea {
 			}
 
 	label {
-		color: rgb(252, 253, 255);
+		color: rgb(241, 230, 216);
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2215,8 +2215,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: rgb(252, 253, 255);
-			border-color: rgb(252, 253, 255);
+			background: rgb(241, 230, 216);
+			border-color: rgb(241, 230, 216);
 			color: rgb(20, 19, 33);
 			content: '\f00c';
 		}
@@ -2803,7 +2803,7 @@ input, select, textarea {
 				}
 
 				.post > header .meta .published {
-					color: rgb(252, 253, 255);
+					color: rgb(241, 230, 216);
 					display: block;
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.7em;
@@ -3087,7 +3087,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: rgb(252, 253, 255);
+			color: rgb(241, 230, 216);
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3242,7 +3242,7 @@ input, select, textarea {
 					#header .main ul li > a {
 						text-decoration: none;
 						border-bottom: 0;
-						color: rgb(224, 225, 252);
+						color: rgb(241, 230, 216);
 						overflow: hidden;
 						position: relative;
 						text-indent: 4em;
@@ -3641,6 +3641,7 @@ input, select, textarea {
 span.navigation{
 	position: relative;
 	top: -3em;
+	display: hidden;
 }
 	span.navigation#projects{
 		top: -7.5em;
