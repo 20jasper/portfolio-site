@@ -613,25 +613,24 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						
 						<!-- Contact form -->
 						
-						<form name="contact" netlify data-netlify-recaptcha="true">
+						<form name="contact">
 							<span class="navigation" id="contactMe"></span>
 							<h2>Contact me</h2>
 							
 							<p>I am currently accepting new freelance clients and looking for full time work</p>
 							
 							<p>
-							  <label>Name <input type="text" name="name" /></label>
+							  <label>Name <input type="text" name="name" required /></label>
 							</p>
 							<p>
-							  <label>Email <input type="email" name="email" /></label>
+							  <label>Email <input type="email" name="email" required/></label>
 							</p>
 							<p>
-								<label>Message <textarea type="text" name="message"></textarea></label>
+								<label>Message <textarea type="text" name="message" required></textarea></label>
 							  </p>
 							<p>
 							  <button type="submit">Submit</button>
 							</p>
-							<div data-netlify-recaptcha="true"></div>
 						  </form>
 						<!-- Footer -->
 							<section id="footer">
