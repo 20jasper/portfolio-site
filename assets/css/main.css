@@ -2893,10 +2893,10 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.post {
-				border-left: 0;
-				border-right: 0;
-				left: -3em;
-				width: calc(100% + (3em * 2));
+				padding: 1.5em 1.5em 0.1em 1.5em;
+				left: -2em;
+				margin: 0 1.5em 2em 1.5em;
+				width: calc(100% + (.5em * 2));
 			}
 
 				.post > header {
@@ -2974,14 +2974,14 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.post {
-				padding: 1.5em 1.5em 0.1em 1.5em ;
-				left: -1.5em;
-				margin: 0 0 2em 0;
-				width: calc(100% + (1.5em * 2));
+				padding: 1.5em 1.5em 0.1em 1.5em;
+				left: -2em;
+				margin: 0 1.5em 2em 1.5em;
+				width: calc(100% + (.5em * 2));
 			}
 
 				.post > header {
-					padding: 3em 1.5em 0.5em 1.5em ;
+					padding: 3em 1.5em 0.5em 1.5em;
 					left: -1.5em;
 					margin: -1.5em 0 1.5em 0;
 					width: calc(100% + 3em);
@@ -3017,9 +3017,7 @@ input, select, textarea {
 				}
 
 			.post > .image.featured {
-				margin-left: -1.5em;
 				margin-top: calc(-1.5em - 1px);
-				width: calc(100% + 3em);
 			}
 
 			.post > footer {
@@ -3181,7 +3179,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 0.7em;
+				font-size: 0.7em; 
 			}
 
 		#header .links {
@@ -3382,7 +3380,7 @@ input, select, textarea {
 			}
 
 		}
-
+		
 		body.single #wrapper {
 			display: block;
 		}
@@ -3638,11 +3636,34 @@ input, select, textarea {
 
 		}
 /* navigation */
-span.navigation{
-	position: relative;
-	top: -3em;
-	display: hidden;
-}
-	span.navigation#projects{
-		top: -7.5em;
+
+	span.navigation{
+		position: relative;
+		top: -3em;
+		display: hidden;
+	}
+		span.navigation#projects{
+			top: -7.5em;
+		}
+	
+	@media screen and (max-width: 1280px) {
+
+		span.navigation{
+			top: -4em;
+		}
+			span.navigation#projects{
+				top: -8em;
+			}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		span.navigation{
+			top: -5em;
+		}
+			span.navigation#projects{
+				top: -8.5em;
+			}
+
 	}
