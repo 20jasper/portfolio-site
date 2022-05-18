@@ -2973,23 +2973,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.post {
-				padding: 1.5em 1.5em 0.1em 1.5em;
-				left: -2em;
-				margin: 0 1.5em 2em 1.5em;
-				width: calc(100% + (.5em * 2));
+			.post > header {
+				padding: 3em 1.5em 0.5em 1.5em;
+				left: -1.5em;
+				margin: -1.5em 0 1.5em 0;
+				width: calc(100% + 3em);
 			}
 
-				.post > header {
-					padding: 3em 1.5em 0.5em 1.5em;
-					left: -1.5em;
-					margin: -1.5em 0 1.5em 0;
-					width: calc(100% + 3em);
+				.post > header .title h2 {
+					font-size: 1.1em;
 				}
-
-					.post > header .title h2 {
-						font-size: 1.1em;
-					}
 
 		}
 
