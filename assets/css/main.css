@@ -3642,10 +3642,10 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		span.navigation{
-			top: -4em;
+			top: -6em;
 		}
 			span.navigation#projects{
-				top: -8em;
+				top: -10em;
 			}
 
 	}
@@ -3653,10 +3653,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		span.navigation{
-			top: -5em;
+			top: -9em;
 		}
 			span.navigation#projects{
-				top: -8.5em;
+				top: -12.5em;
 			}
 
 	}
