@@ -3632,31 +3632,17 @@ input, select, textarea {
 
 	span.navigation{
 		position: relative;
-		top: -3em;
+		top: 1em;
 		display: hidden;
 	}
 		span.navigation#projects{
-			top: -7.5em;
+			top: -4em;
 		}
 	
 	@media screen and (max-width: 1280px) {
 
-		span.navigation{
-			top: -6em;
-		}
 			span.navigation#projects{
-				top: -15em;
-			}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		span.navigation{
-			top: -12em;
-		}
-			span.navigation#projects{
-				top: -25em;
+				top: 12em;
 			}
 
 	}
