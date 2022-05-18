@@ -3645,7 +3645,7 @@ input, select, textarea {
 			top: -6em;
 		}
 			span.navigation#projects{
-				top: -10em;
+				top: -15em;
 			}
 
 	}
@@ -3653,10 +3653,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		span.navigation{
-			top: -9em;
+			top: -12em;
 		}
 			span.navigation#projects{
-				top: -12.5em;
+				top: -25em;
 			}
 
 	}
