@@ -1974,7 +1974,7 @@ input, select, textarea {
 		.button.disabled,
 		.button:disabled {
 			pointer-events: none;
-			color: rgba(255, 152, 0, 0.3) !important;
+			color: rgb(242 242 242 / 62%) !important;
 		}
 
 			input[type="submit"].disabled:before, input[type="submit"]:disabled:before,
